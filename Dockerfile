@@ -9,9 +9,3 @@ RUN mkdir -p /app
 COPY access.log /app/access.log
 
 WORKDIR /app
-
-Removed from build context:
-
-solution_hint.py
-
-Reason: it leaked the reference solution to the agent.
